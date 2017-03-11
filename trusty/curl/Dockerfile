@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM 501stalpha1/ubuntu:trusty
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
 		ca-certificates \

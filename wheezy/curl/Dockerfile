@@ -1,4 +1,4 @@
-FROM debian:wheezy
+FROM 501stalpha1/debian:wheezy
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
 		ca-certificates \

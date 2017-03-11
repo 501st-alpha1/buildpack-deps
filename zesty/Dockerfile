@@ -1,4 +1,4 @@
-FROM buildpack-deps:zesty-scm
+FROM 501stalpha1/buildpack-deps:zesty-scm
 
 RUN set -ex; \
 	apt-get update; \

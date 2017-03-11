@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM 501stalpha1/debian:stretch
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
 		ca-certificates \

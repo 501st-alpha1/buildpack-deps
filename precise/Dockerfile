@@ -1,4 +1,4 @@
-FROM buildpack-deps:precise-scm
+FROM 501stalpha1/buildpack-deps:precise-scm
 
 RUN set -ex; \
 	apt-get update; \

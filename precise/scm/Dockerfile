@@ -1,4 +1,4 @@
-FROM buildpack-deps:precise-curl
+FROM 501stalpha1/buildpack-deps:precise-curl
 
 # procps is very common in build systems, and is a reasonably small package
 RUN apt-get update && apt-get install -y --no-install-recommends \

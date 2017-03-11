@@ -1,4 +1,4 @@
-FROM ubuntu:yakkety
+FROM 501stalpha1/ubuntu:yakkety
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
 		ca-certificates \

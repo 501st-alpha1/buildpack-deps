@@ -1,4 +1,4 @@
-FROM buildpack-deps:stretch-scm
+FROM 501stalpha1/buildpack-deps:stretch-scm
 
 RUN set -ex; \
 	apt-get update; \

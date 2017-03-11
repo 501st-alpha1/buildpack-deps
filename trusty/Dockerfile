@@ -1,4 +1,4 @@
-FROM buildpack-deps:trusty-scm
+FROM 501stalpha1/buildpack-deps:trusty-scm
 
 RUN set -ex; \
 	apt-get update; \

@@ -1,4 +1,4 @@
-FROM ubuntu:precise
+FROM 501stalpha1/ubuntu:precise
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
 		ca-certificates \

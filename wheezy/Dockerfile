@@ -1,4 +1,4 @@
-FROM buildpack-deps:wheezy-scm
+FROM 501stalpha1/buildpack-deps:wheezy-scm
 
 RUN set -ex; \
 	apt-get update; \
