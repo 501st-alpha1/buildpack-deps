@@ -1,0 +1,12 @@
+image: 501stalpha1/buildpack-deps:jessie
+manifests:
+  -
+    image: 501stalpha1/buildpack-deps:jessie-amd64
+    platform:
+      architecture: amd64
+      os: linux
+  -
+    image: 501stalpha1/buildpack-deps:jessie-386
+    platform:
+      architecture: 386
+      os: linux
